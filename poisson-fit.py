@@ -8,7 +8,7 @@ from scipy.optimize import curve_fit
 
 from scipy.misc import factorial
 
-data = np.random.poisson(2, 10000)
+data = np.random.poisson(3, 10000)
 
 d_freq = {}
 for d in data.tolist():
